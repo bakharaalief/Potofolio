@@ -168,6 +168,7 @@
     margin-bottom: 10px;
 }
 
+/* adaptive view */
 @media (min-width: 400px) and (max-width:  991.98px) {
     /* welcome page */
     .welcome-page{
@@ -223,5 +224,87 @@
         display: block;
         margin-top: 40px;
     }
+}
+
+/* mobile design */
+@media (max-width: 400px){
+    /* welcome page */
+    .welcome-page{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .welcome-page .side-1 h4{
+        font-size: 30px;
+    }
     
+    .welcome-page .side-1 p{
+        font-size: 22px;
+    }
+
+    .welcome-page .side-2 img{
+        width: 250px;
+        margin-top: 40px;
+    }
+
+    /* project page */
+    .project-page{
+        text-align: center;
+    }
+
+    .project-page .title{
+        font-size: 35px;
+    }
+
+    .project-page .project-item .side-1 img{
+        width: 300px;
+    }
+
+    .project-page .project-item .side-2{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .project-page .project-item .side-2 .project-title{
+        font-size: 30px;
+    }
+
+    .project-page .project-item .side-2 .project-desc{
+        font-size: 14px;
+    }
+
+    .project-page .project-item .side-2 .button-1{
+        margin: auto;
+    }
+
+    /* about page */
+    .about-page{
+        text-align: center;
+    }
+
+    .about-page .side-1 .about-title{
+        font-size: 50px;
+    }
+
+    .about-page .side-1 .about-desc{
+        font-size: 15px;
+    }
+
+    .about-page .side-1 .about-social{
+        width: 200px;
+        margin: auto;
+    }
+
+    .about-page .side-1 .about-social img{
+        width: 30px;
+    }
+
+    .about-page .side-2{
+        margin-top: 10px;
+    }
+
+    .about-page .side-2 img{
+        width: 200px;
+        margin: auto;
+    }
 }
