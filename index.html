@@ -1,0 +1,323 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakhara Alief</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- tab icon -->
+    <link rel="icon" href="./image/logo.png">
+
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+
+            <!-- navbar button -->
+            <a class="navbar-brand" href="#">
+                <img 
+                    src="./image/logo.png" 
+                    alt="" 
+                    width="40" 
+                    height="40" 
+                    class="d-inline-block align-text-top">
+
+                <p>Bakhara Alief</p>
+            </a>
+
+            <!-- button collapse -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- collapse list -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link" 
+                            aria-current="page" 
+                            href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main class="main container">
+
+        <!-- first page -->
+        <div 
+            class="welcome-page row" 
+            data-aos="fade-up" 
+            data-aos-duration="1000">
+
+            <div class="side-1 col">
+              <h4>Hello,</h4>
+              <h4>I'm Bakhara Alief</h4>
+              <p>computer science student who is interested </br> in mobile programming and development</p>
+            </div>
+
+            <div class="side-2 col">
+              <img 
+                src="./image/my-icon.png" 
+                alt=""
+                width="320">
+            </div>
+        </div>
+
+        <!-- project page -->
+        <div class="project-page" id="projects">
+            <h4 class="title">Projects</h4>
+
+            <!-- project-1 -->
+            <div class="project-item row">
+                <div 
+                    class="side-1 col" 
+                    data-aos="fade-right"
+                    data-aos-duration="1000">
+
+                    <img 
+                    src="./image/project1.png" 
+                    alt=""
+                    width="380">
+                </div>
+
+                <div 
+                    class="side-2 col" 
+                    data-aos="fade-left"
+                    ata-aos-duration="2000">
+
+                    <h4 class="Project-title">Quran Story</h4>
+                    <p class="Project-desc">
+                        Quran Story is an app that I made in 2020. 
+                        This is my first application that I released on Playstore. 
+                        This application is based on android with kotlin language and uses MVVM structure.
+                        This application was created to make it easier for users to create stories of the Quran. 
+                        So users only need to search for the ayah that he wants to make a story and spread it through social media
+                    </p>
+
+                    <a 
+                        target="_blank"
+                        href="https://play.google.com/store/apps/details?id=com.bakhdev.quranstory" 
+                        class="button-1">
+                        <img 
+                            src="./image/play-store.png" 
+                            alt=""
+                            width="30">
+
+                        <p>Play Store</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- project-2 -->
+            <div class="project-item row">
+                <div 
+                    class="side-1 col" 
+                    data-aos="fade-right"
+                    data-aos-duration="1000">
+                    
+                    <img 
+                    src="./image/project2.png" 
+                    alt=""
+                    width="380">
+                </div>
+
+                <div 
+                    class="side-2 col" 
+                    data-aos="fade-left"
+                    ata-aos-duration="2000">
+
+                    <h4 class="Project-title">Forecast App</h4>
+                    <p class="Project-desc">
+                        Forecast App is an application that I created to make it easier to make weather forecasts. 
+                        This application is based on Android using the Kotlin language. 
+                        I made this application with an attractive appearance so that it will be enjoyed by young generation.
+                    </p>
+
+                    <a 
+                        target="_blank"
+                        href="https://github.com/bakharaalief/Forecast-App" 
+                        class="button-1">
+                        <img 
+                            src="./image/github.png" 
+                            alt=""
+                            width="30">
+
+                        <p>Github</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- project-3 -->
+            <div class="project-item row">
+                <div 
+                    class="side-1 col" 
+                    data-aos="fade-right"
+                    data-aos-duration="1000">
+                    
+                    <img 
+                    src="./image/project3.png" 
+                    alt=""
+                    width="380">
+                </div>
+
+                <div 
+                    class="side-2 col" 
+                    data-aos="fade-left"
+                    ata-aos-duration="2000">
+
+                    <h4 class="Project-title">Disiney App</h4>
+                    <p class="Project-desc">
+                        Disney app is an app to see trending movies. 
+                        In this application you will be able to see detailed 
+                        information about the film, such as what category, who is the cast, and many other things. 
+                        I made this application based on Flutter. 
+                        The purpose of making this application is to learn about mobile technology that is developing out there. 
+                        So that later I will be able to adapt and absorb knowledge from technology that is developing outside.
+                    </p>
+
+                    <a 
+                        target="_blank"
+                        href="https://github.com/bakharaalief/Disiney-App" 
+                        class="button-1">
+                        <img 
+                            src="./image/github.png" 
+                            alt=""
+                            width="30">
+
+                        <p>Github</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- project-4 -->
+            <div class="project-item row">
+                <div 
+                    class="side-1 col" 
+                    data-aos="fade-right"
+                    data-aos-duration="1000">
+                    
+                    <img 
+                    src="./image/project4.png" 
+                    alt=""
+                    width="380">
+                </div>
+
+                <div 
+                    class="side-2 col" 
+                    data-aos="fade-left"
+                    ata-aos-duration="2000">
+
+                    <h4 class="Project-title">Pemira Website</h4>
+                    <p class="Project-desc">
+                        Permira is a web-system that functions as a place for students to elect the head of the BEM. 
+                        In this project I act as Project Manager and Backend Developer. 
+                        This website is based on PHP and the Codenigter Framework. 
+                        One of the extraordinary things about this project is that my team and I were able to conduct the election process simultaneously from all over Indonesia and only carried out in 1 day. 
+                        In the previous system, the committee took almost 3 days to announce who was the chairman of BEM
+                    </p>
+
+                    <a 
+                        target="_blank" 
+                        href="https://pemira.esqbs.ac.id/login" 
+                        class="button-1">
+                        <img 
+                            src="./image/computer.png" 
+                            alt=""
+                            width="30">
+
+                        <p>Link</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- about page -->
+        <div class="about-page" id="about">
+            <h4 class="title">About</h4>
+
+            <div 
+                class="row" 
+                data-aos="fade-up" 
+                data-aos-duration="1000">
+
+                <div class="side-1 col">
+                    <h4 class="about-title">I'm Bakhara Alief</h4>
+                    <p class="about-desc">
+                        I am a student who likes mobile programming. 
+                        My love for the world of mobile programming started when I was doing Geap Year waiting to enter college. 
+                        There I took the time to study about mobile programming. 
+                        Since then I have started to like various things about mobile programming. 
+                        I like to see interactions that occur in applications on my smartphone. 
+                        That's what started me to learn mobile programming until now. </br></br>
+
+                        In addition, I also study other fields that support mobile applications to run. 
+                        Like Backend Developer with PHP base and so on. I am also a student who loves to study and work hard. 
+                        With these two attitudes we can stay afloat in this fast-paced world of technology :)
+                    </p>
+
+                    <p class="about-link">You can see My CV on 
+                        <a target="_blank" href="https://drive.google.com/drive/folders/1ORt5n_uBCAw5nytTdQile2OVypLoZCGE?usp=sharing">This</a>
+                    </p>
+
+                    <div class="about-social">
+                        <a target="_blank" href="https://github.com/bakharaalief">
+                            <img src="./image/github-about.png" alt="" width="40">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/bakhdev/">
+                            <img src="./image/instagram-about.png" alt="" width="40">
+                        </a>
+                        <a target="_blank" href="https://ara-bakhara12.medium.com/">
+                            <img src="./image/medium-about.png" alt="" width="40">
+                        </a>
+                        <a target="_blank" href="https://open.spotify.com/show/17rrKQqwlpeWmtpOBm44HW?si=143959a060f544a7">
+                            <img src="./image/spotify-about.png" alt="" width="40">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="side-2 col">
+                    <img 
+                    src="./image/image.png" 
+                    alt=""
+                    width="400">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Designed & Built by Bakhara Alief</p>
+        </div>
+    </main>
+</body>
+
+<!-- AOS script -->
+<script>
+    AOS.init();
+</script>
+</html>

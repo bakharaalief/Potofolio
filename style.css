@@ -1,0 +1,227 @@
+:root {
+    --grey: #828282;
+    --yellow-muda:#FFC727;
+}
+
+.navbar{
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.navbar-brand{
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand p{
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.main{
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+/* welcome page */
+.welcome-page{
+    padding-inline: 60px;
+    min-height: 600px;
+}
+
+.welcome-page .side-1{
+    align-self: center;
+}
+
+.welcome-page .side-1 h4{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.welcome-page .side-1 p{
+    font-size: 20px;
+    color: var(--grey);
+}
+
+.welcome-page .side-2{
+    align-self: center;
+}
+
+.welcome-page .side-2 img{
+    margin-left: auto;    
+    display: block;
+}
+
+/* project page */
+.project-page .title{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.project-page .project-item{
+    margin-top: 50px;
+    min-height: 400px;
+}
+
+.project-page .project-item .side-1{
+    align-self: center;
+}
+
+.project-page .project-item .side-1 img{
+    display: block;
+    margin: auto;
+}
+
+.project-page .project-item .side-2{
+    align-self: center;
+    margin-left: 40px;
+}
+
+.project-page .project-item .side-2 .project-title{
+    color: var(--yellow-muda);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.project-page .project-item .side-2 .project-desc{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.project-page .project-item .side-2 .button-1{
+    background-color: black;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 10px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.project-page .project-item .side-2 .button-1 p{
+    margin-bottom: 0px;
+    color: white;
+    margin-left: 10px;
+}
+
+/* about page */
+.about-page{
+    padding-inline: 60px;
+    min-height: 600px;
+    margin-bottom: 40px;
+}
+
+.about-page .title{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.about-page .row{
+    margin-top: 50px;
+}
+
+.about-page .side-1 {
+    align-self: center;
+}
+
+.about-page .side-1 .about-title{
+    color: var(--yellow-muda);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about-page .side-1 .about-desc{
+    font-size: 18px;
+}
+
+.about-page .side-1 .about-link{
+    font-size: 18px;
+}
+
+.about-page .side-1 .about-link a{
+    text-decoration: none;
+}
+
+.about-page .side-1 .about-social {
+    margin-top: 25px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.about-page .side-2 img{
+    margin-left: auto;
+    display: block;
+}
+
+.footer p{
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 400px) and (max-width:  991.98px) {
+    /* welcome page */
+    .welcome-page{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .welcome-page .side-2 img{
+        margin: auto;    
+        display: block;
+    }
+
+    /* project page */
+    .project-page{
+        text-align: center;
+    }
+    
+    .project-page .project-item{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .project-page .project-item .side-1{
+        margin: auto;
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .project-page .project-item .side-2{
+        align-self: center;
+        margin-left: 0px;
+    }
+
+    .project-page .project-item .side-2 .button-1{
+        margin: auto;
+    }
+
+    /* about page */
+    .about-page{
+        text-align: center;
+    }
+
+    .about-page .side-1 .about-social {
+        margin-top: 25px;
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .about-page .side-2 img{
+        margin: auto;
+        display: block;
+        margin-top: 40px;
+    }
+    
+}
