@@ -227,7 +227,7 @@
 }
 
 /* mobile design */
-@media (max-width: 400px){
+@media (max-width: 415px){
     /* welcome page */
     .welcome-page{
         flex-direction: column-reverse;
